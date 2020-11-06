@@ -4,6 +4,19 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+		return {
+			htmlAttrs: {
+				lang: "en",
+			},
+			meta: [{ httpEquiv: "x-ua-compatible", content: "ie=edge" }],
+		};
+	},
+}
+</script>
+
 <style>
 html {
   font-family:
